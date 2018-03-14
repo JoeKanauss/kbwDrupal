@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Grand+Hotel");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:300");
+
+#info-content{
+	width: 75%;
+	margin: 0 auto;
+	padding: 5%;
+	border: 15px solid transparent;
+	border-image: url(/kbwDrupal/app/sites/all/themes/kbw/images/kbw-img-border-whitebg.png) 25% round;
+	background-color: #fff7c0;
+}
+#contents{
+	width: 80%;
+	margin: 0 auto;
+}
+#info-title{
+	text-align: center;
+	font-family: "Grand Hotel", sans-serif;
+	font-size: 2.5em;
+	font-weight: lighter;
+	color: #eb93ae;
+}
+#left-info{
+	float: left;
+	width: 45%;
+	text-align: right;
+	padding-top: 5%;
+	margin-right: 0;
+}
+#left-info h1{
+	font-family: "Alegreya Sans", sans-serif;
+	background-color: #eb93ae;
+	margin: 0;
+	color: white;
+	padding-right: 1%;
+}
+#left-info .information{
+	padding: 2%;
+	margin: 0;
+}
+#left-info .field-name-body{
+	font-family: "Alegreya Sans", sans-serif;
+	font-weight: bolder;
+	font-size: 1.25em;
+}
+#left-info .field-name-field-price{
+	font-family: "Alegreya Sans", sans-serif;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+#right-info{
+	float: left;
+	width: 45%;
+}
+#right-info .field-name-field-info-image img{
+	border: 10px solid #eb93ae;
+}
+#info-clear{
+	clear: both;
+}

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Grand+Hotel");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:300");
+
+.cupcake{
+	float: left;
+	margin: 0 2%;
+}
+
+#row-clear{
+	clear: both;
+}
+
+#row{
+	text-align: center;
+}
+#row .image-title a{
+	text-decoration: none;
+	font-family: "Grand Hotel", script;
+	font-size: 1.75em;
+	font-weight: lighter;
+	color: #eb93ae;
+	
+}
+#row .image-title a:hover{
+	color: #7baf8e;
+}
+#row img{
+	border: 15px solid transparent;
+	border-image: url(/kbwDrupal/app/sites/all/themes/kbw/images/kbw-img-border-whitebg.png) 25% round;
+}
+#row .image-categories a{
+	color: #7baf8e;
+	text-decoration: none;
+	font-family: "Alegreya Sans", sans-serif;
+	font-weight: bolder;
+	font-style: italic;
+}
+#row .field-content{
+	color: #7baf8e;
+	text-decoration: none;
+	font-family: "Alegreya Sans", sans-serif;
+	font-weight: bolder;
+	font-style: italic;
+}
+#row .image-categories a:hover{
+	color: #eb93ae;
+}
