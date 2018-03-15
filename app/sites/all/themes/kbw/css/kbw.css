@@ -41,7 +41,7 @@ body{
 
 
 
-#block-nice_menus-1{
+/* #block-nice_menus-1{
 height: 30px;
 border-bottom:#006699 solid 1px;
 border-radius: 25px;
@@ -83,16 +83,52 @@ text-decoration: none;
 display: block;
 color: #FFFFFF;
 background-color: #6F0000;
+} */
+.title{
+	text-align: center;
+	background-color: #fff7c0;
+	font-family: "Grand Hotel", script;
+	font-size: 3.5em;
+	margin: 0;
+	padding-top: .5%;
+	padding-bottom: 1%;
+	font-weight: lighter;
+	color: #eb93ae;
+	border-bottom: 10px solid transparent;
+	border-image: url(/kbwDrupal/app/sites/all/themes/kbw/images/kbw-img-border-whitebg.png) 25% round;
 }
-
-
-
 #content{
 	width: 75%; 
 	margin: auto;
-	padding: 1%;
-	min-height: 500px;
 	background-color: white;
 	border-radius: 25px;
+	padding-bottom: 2.5%;
+}
+.information-title-dash{
+	color: #7baf8e;
+}
+.logo{
+	margin-top: 2%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+#footer{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	font-family: "Alegreya Sans", sans-serif;
+	font-weight: bold;
+}
+
+#footer a{
+	text-decoration: none;
+	color: #4d805f;
+}
+#footer a:hover{
+	text-decoration: none;
+	color: #eb93ae;
+}
+
+	

@@ -4,6 +4,7 @@
 #info-content{
 	width: 75%;
 	margin: 0 auto;
+	margin-top: 2%;
 	padding: 5%;
 	border: 15px solid transparent;
 	border-image: url(/kbwDrupal/app/sites/all/themes/kbw/images/kbw-img-border-whitebg.png) 25% round;

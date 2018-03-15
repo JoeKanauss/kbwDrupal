@@ -6,11 +6,9 @@
  *
  * @ingroup views_templates
  */
-
-
 ?>
-
 <div id="cupcake-gallery">
+<h1 class="tag-title">Cupcake Category:<br><span class="tag-title-two">- <?php print $view->get_title(); ?> -</span></h1> 
 <?php $i = 0; ?>
 	<?php foreach($rows as $id => $row): ?>
 		<?php if ($i == 0 || $i % 3 == 0): ?>
@@ -32,10 +30,6 @@
 	<?php if($i % 3 == 0): ?>
 		</div>
 	<?php endif; ?>
-	
 	<div id="row-clear">
-	</div>
-	<div>
-		<img class="logo" src="/kbwDrupal/app/sites/all/themes/kbw/images/logo-100w.png" />
 	</div>
 </div>

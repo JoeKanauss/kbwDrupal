@@ -79,11 +79,6 @@
  */
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-
-	
-	<div id="info-title">
-		<h1><img src="/kbwDrupal/app/sites/all/themes/kbw/images/kbw_logo_bullet.png" /> <?php print render($title); ?> <img src="/kbwDrupal/app/sites/all/themes/kbw/images/kbw_logo_bullet.png" /></h1> 
-	</div>
 	
 	<div id="info-content">
 		<div id="contents">
