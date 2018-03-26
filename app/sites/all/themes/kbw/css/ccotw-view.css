@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Grand+Hotel");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:300");
+
+#block-views-cupcake-of-the-week-block h2{
+	background-color: #fff7c0;
+	text-align: center;
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 2.15em;
+	color: #7baf8e;
+	margin: 0;
+	padding-bottom: 4%;
+	border-top: 10px solid transparent;
+	border-image: url(/kbwDrupal/app/sites/all/themes/kbw/images/kbw-img-border-whitebg.png) 25% round;
+}
+
+.ccotw{
+	text-align: center;
+}
+
+.ccotw-image img{
+	width: 100%;
+	height: auto;
+}
+
+.ccotw-title{
+	background-color: #fff7c0;
+	margin: 0px;
+	padding-bottom: 4%;
+	padding-top: 0px;
+	border-bottom: 10px solid transparent;
+	border-image: url(/kbwDrupal/app/sites/all/themes/kbw/images/kbw-img-border-whitebg.png) 25% round;
+}
+
+.ccotw-title a{
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 1.05em;
+	color: #eb93ae;
+	text-decoration: none;
+}
+
+.ccotw-title a:hover{
+	color: #7baf8e;
+}

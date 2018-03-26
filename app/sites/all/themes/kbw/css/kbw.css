@@ -4,10 +4,12 @@
 body{
 	background-image: url('../images/kbw_back.png');
 }
+
 #header{
 	margin: 0 auto;
 	text-align: center;
 }
+
 /* #main-menu ul{
 	list-style-type: none;
 	margin-bottom: 0;
@@ -97,6 +99,7 @@ background-color: #6F0000;
 	border-bottom: 10px solid transparent;
 	border-image: url(/kbwDrupal/app/sites/all/themes/kbw/images/kbw-img-border-whitebg.png) 25% round;
 }
+
 #content{
 	width: 75%; 
 	margin: auto;
@@ -104,14 +107,32 @@ background-color: #6F0000;
 	border-radius: 25px;
 	padding-bottom: 2.5%;
 }
+
+#content-with-sidebar{
+	width: 65%; 
+	margin: auto;
+	margin-left: 2.5%;
+	background-color: white;
+	border-radius: 25px;
+	padding-bottom: 2.5%;
+	float: left;
+}
+
 .information-title-dash{
 	color: #7baf8e;
 }
+
 .logo{
 	margin-top: 2%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.left-sidebar{
+	float: left;
+	background-color: white;
+	width: 15%;
 }
 
 #footer{
@@ -126,6 +147,7 @@ background-color: #6F0000;
 	text-decoration: none;
 	color: #4d805f;
 }
+
 #footer a:hover{
 	text-decoration: none;
 	color: #eb93ae;

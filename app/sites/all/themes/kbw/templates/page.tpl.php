@@ -15,7 +15,23 @@
 
 	<div id="wrapper">
 
-	<div id="content">
+	<?php if(!empty($page['sidebar_first'])){?>
+	<div id="sidebar" class="left-sidebar">
+		<?php print render($page['sidebar_first']);?>
+	</div>
+	<?php 
+	}
+	else{
+	
+	} ?>
+	
+	<?php if(!empty($page['sidebar_first'])){?>
+		<div id="content-with-sidebar">
+	<?php }
+		else{ 
+	?>
+		<div id="content">	
+	<?php } ?>
 	
 		<?php
 		$views_page = views_get_page_view();
@@ -44,14 +60,7 @@
 			
 		<?php }?>
 	</div>
-	
-	
 
-	<?php if($page['sidebar_first']): ?>
-	<div id="sidebar">
-		<?php print render($page['sidebar_first']);?>
-	</div>
-	<?php endif; ?>
 	</div>
 
 	<?php if($page['footer']): ?>
