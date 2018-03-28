@@ -8,5 +8,6 @@ stylesheets[all][] = css/information.css
 stylesheets[all][] = css/full-cupcake-view.css
 stylesheets[all][] = css/category.css
 stylesheets[all][] = css/ccotw-view.css
+stylesheets[all][] = css/webform.css
 
 

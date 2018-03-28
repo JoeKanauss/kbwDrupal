@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Grand+Hotel");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:300");
+
+.node-webform .content{
+	padding: 2.5% 1%;
+}
+
+.node-webform .content .field-name-field-body {
+	text-align: center;
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 1.75em;
+	font-weight: bold;
+	color: #666666;
+}
+
+.node-webform .content label{
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 1.65em;
+	font-weight: bold;
+	color: #eb93ae;
+}
+
+.node-webform .content input, textarea {
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #7baf8e;
+	background-color: #fff7e0;
+	padding-left: 1%;
+	border-radius: 25px;
+}
+
+.node-webform .content textarea::placeholder{
+	color: #7baf8e;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.node-webform .content input[type='submit']{
+	padding: .25%;
+	width: 25%;
+	border-radius: 5px;
+	background-color: #eb93ae;
+	color: #fff7c0;
+	cursor: pointer;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.53);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.53);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.53);
+	border: none;
+}
+.node-webform .content input[type='submit']:hover{
+	padding: .25%;
+	width: 25%;
+	border-radius: 5px;
+	background-color: #eb93ae;
+	color: #fff7c0;
+	cursor: pointer;
+	-webkit-box-shadow: inset -2px -2px 5px 0px rgba(0,0,0,0.33);
+	-moz-box-shadow: inset -2px -2px 5px 0px rgba(0,0,0,0.33);
+	box-shadow: inset -2px -2px 5px 0px rgba(0,0,0,0.33);
+	border: none;
+}
+
+.webform-confirmation p{
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 1.65em;
+	font-weight: bold;
+	color: #999999;
+	text-align: center;
+	margin-bottom: 1.5%;
+}
+
+.links {
+	text-align: center;
+	padding-top: 0px;
+	margin-bottom: 5%;
+	margin-top: 0px;
+}
+
+.links a{
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #eb93ae;	
+	text-decoration: none;
+	border-top: 1px solid #7baf8e;
+	border-bottom: 1px solid #7baf8e;
+	padding: .25%;
+}
+
+.links a:hover{
+	color: #7baf8e;
+	border-top: 1px solid #eb93ae;
+	border-bottom: 1px solid #eb93ae;
+	padding: .25%;
+}
