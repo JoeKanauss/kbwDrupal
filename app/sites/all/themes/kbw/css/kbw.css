@@ -108,7 +108,17 @@ background-color: #6F0000;
 	padding-bottom: 2.5%;
 }
 
-#content-with-sidebar{
+#content-with-left-sidebar{
+	width: 65%; 
+	margin: auto;
+	margin-left: 2.5%;
+	background-color: white;
+	border-radius: 25px;
+	padding-bottom: 2.5%;
+	float: left;
+}
+
+ #content-with-right-sidebar{
 	width: 65%; 
 	margin: auto;
 	margin-left: 2.5%;
@@ -135,12 +145,23 @@ background-color: #6F0000;
 	width: 15%;
 }
 
+ .right-sidebar{
+	float: right;
+	background-color: white;
+	width: 15%;
+}
+
+#order-details{
+	background-color: orange;
+}
+
 #footer{
 	width: 50%;
 	margin: auto;
 	text-align: center;
 	font-family: "Alegreya Sans", sans-serif;
 	font-weight: bold;
+	clear: both;
 }
 
 #footer a{

@@ -15,9 +15,9 @@
 
 	<div id="wrapper">
 
-	<?php if(!empty($page['sidebar_first'])){?>
+	<?php if(!empty($page['left-sidebar'])){?>
 	<div id="sidebar" class="left-sidebar">
-		<?php print render($page['sidebar_first']);?>
+		<?php print render($page['left-sidebar']);?>
 	</div>
 	<?php 
 	}
@@ -25,8 +25,14 @@
 	
 	} ?>
 	
-	<?php if(!empty($page['sidebar_first'])){?>
-		<div id="content-with-sidebar">
+	<?php if(!empty($page['left-sidebar']) && empty($page['right-sidebar'])){?>
+		<div id="content-with-left-sidebar">
+	<?php }
+		else if(!empty($page['left-sidebar']) && !empty($page['right-sidebar'])){?>
+		<div id="content-with-both-sidebars">
+	<?php }
+		else if(empty($page['left-sidebar']) && !empty($page['right-sidebar'])){?>
+		<div id="content-with-right-sidebar">
 	<?php }
 		else{ 
 	?>
@@ -59,9 +65,18 @@
 		else{ ?>
 			
 		<?php }?>
+		
 	</div>
-
 	</div>
+	</div>
+	</div>
+	
+	<?php if(!empty($page['right-sidebar'])){ ?>
+		<div class="right-sidebar">
+	<?php 
+		print render($page['right-sidebar']);
+	} ?>
+		</div>
 
 	<?php if($page['footer']): ?>
 	<div id="footer">

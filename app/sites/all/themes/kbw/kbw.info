@@ -10,4 +10,8 @@ stylesheets[all][] = css/category.css
 stylesheets[all][] = css/ccotw-view.css
 stylesheets[all][] = css/webform.css
 
-
+regions[header] = Header
+regions[left-sidebar] = Left Sidebar
+regions[content] = Content
+regions[right-sidebar] = Right Sidebar
+regions[footer] = Footer
