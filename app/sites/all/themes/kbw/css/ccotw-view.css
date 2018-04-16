@@ -7,19 +7,60 @@
 	font-family: "Alegreya Sans", sans-serif;
 	font-size: 2.15em;
 	color: #7baf8e;
-	margin: 0;
-	padding-bottom: 5%;
+	margin: 0 auto;
 	border-top: 10px solid transparent;
 	border-image: url(/kbwDrupal/app/sites/all/themes/kbw/images/image-border.png) 25% round;
+	width: 15%;
+}
+
+.introduction{
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 1.75em;
+}
+
+/* .introduction h1{
+	font-family: "Grand Hotel", script;
+	font-size: 4em;
+	font-weight: lighter;
+	color: #7baf8e;
+} */
+
+.cc{
+	width: 35%;
+	margin: 0 auto;
+	text-align: center;
+	border: 10px solid transparent;
+	border-image: url(/kbwDrupal/app/sites/all/themes/kbw/images/image-border.png) 25% round;
+	background-color: #fff7c0;
+	padding: 0;
+}
+
+.cc h1{
+	font-family: "Grand Hotel", script;
+	font-size: 4em;
+	font-weight: lighter;
+	color: #7baf8e;
+	margin-bottom: 0;
 }
 
 .ccotw{
 	text-align: center;
 	background-color: #fff7c0;
+	width: 15%;
+	margin: 0 auto;
 }
 
 .ccotw-image img{
-	width: 95%;
+	width: 50%;
+	height: auto;
+	
+}
+
+.page-ccotw-image img{
+	width: 50%;
 	height: auto;
 	
 }
@@ -41,5 +82,24 @@
 }
 
 .ccotw-title a:hover{
+	color: #7baf8e;
+}
+
+.page-ccotw-title{
+	background-color: #fff7c0;
+	margin: 0px;
+	padding-bottom: 4%;
+	padding-top: 0px;
+}
+
+.page-ccotw-title a{
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: .75em;
+	color: #eb93ae;
+	text-decoration: none;
+	margin-top: 0;
+}
+
+.page-ccotw-title a:hover{
 	color: #7baf8e;
 }

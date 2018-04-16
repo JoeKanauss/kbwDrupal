@@ -106,3 +106,29 @@
 	padding-bottom: 2%;
 	border-bottom: 5px solid #7baf8e;
 }
+
+.delivery-date select{
+	background-color: #fff7e0;
+	color: #7baf8e;
+	font-family: "Alegreya Sans", sans-serif;
+	font-weight: bold;
+	font-size: 1.25em;
+	border: 1px solid black;
+	border-radius: 25px;
+	padding: .25% 1%;
+}
+
+.field-one{
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.field-two{
+	float: left;
+	margin-left: 2%;
+}
+
+.field-clear{
+	clear: both;
+}
